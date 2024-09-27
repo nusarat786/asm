@@ -1,0 +1,72 @@
+# Ignore Node.js modules and build files (React frontend)
+node_modules/
+build/
+dist/
+
+# Ignore temporary environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignore the dependency lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore coverage reports
+coverage/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore .NET Core specific files and folders (backend)
+bin/
+obj/
+*.user
+*.vspscc
+.vscode/
+.vs/
+
+# ASP.NET Core settings
+appsettings*.json
+secrets.json
+
+# Ignore Rider/JetBrains IDE files
+.idea/
+
+# Ignore build results
+*.dll
+*.exe
+*.so
+*.dylib
+*.log
+
+# Ignore publish folder
+publish/
+
+# Ignore database
+*.mdf
+*.ldf
+*.sqlite
+
+# Ignore byproducts of NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore Test Results
+TestResults/
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore sensitive user-specific files
+launchSettings.json
